@@ -1,0 +1,7 @@
+C:\Users\rozet\source\repos\client_c\client_c\bin\Debug\client_c.exe.config
+C:\Users\rozet\source\repos\client_c\client_c\bin\Debug\client_c.exe
+C:\Users\rozet\source\repos\client_c\client_c\bin\Debug\client_c.pdb
+C:\Users\rozet\source\repos\client_c\client_c\obj\Debug\client_c.csprojAssemblyReference.cache
+C:\Users\rozet\source\repos\client_c\client_c\obj\Debug\client_c.csproj.CoreCompileInputs.cache
+C:\Users\rozet\source\repos\client_c\client_c\obj\Debug\client_c.exe
+C:\Users\rozet\source\repos\client_c\client_c\obj\Debug\client_c.pdb

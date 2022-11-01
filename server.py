@@ -9,10 +9,10 @@ s.bind(('', port))
 print("socket binded to %s" % (port))
 
 s.listen(5)
-print("socket is listening")
+print("listened")
 
 c, addr = s.accept()
-print('Got connection from', addr)
+print('got connection from', addr)
 while True:
     data = c.recv(1024).decode()
     if not data:
@@ -22,5 +22,5 @@ while True:
     c.send(data.encode())
 
 
-c.send('Thank you for connecting'.encode())
+c.send('connected'.encode())
 c.close()

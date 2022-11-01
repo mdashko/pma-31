@@ -1,0 +1,25 @@
+<table class="table" >
+  <thead>
+    <tr>
+      <th scope="col">Id</th>
+      <th scope="col">Name</th>
+      <th scope="col">Age</th>
+    </tr>
+  </thead>
+  <tbody>
+       {% for cat in context.cats %}
+            <tr>
+              <td>{{ cat.id }}</td>
+              <td>{{ cat.name }}</td>
+              <td>{{ cat.age }}</td>
+            </tr>
+        {% endfor %}
+  </tbody>
+
+</table>
+
+<div>
+{% if context.current_cat %}
+    Current cat: {{ context.current_cat.id }} {{ context.current_cat.name }} {{ context.current_cat.age }}
+    {% endif %}
+</div>
